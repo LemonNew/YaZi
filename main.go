@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/loulan-ling/YaZi/common"
 	"github.com/loulan-ling/YaZi/config"
-
 )
 
 func main() {

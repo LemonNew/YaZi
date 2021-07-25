@@ -1,5 +1,6 @@
 package config
 
-type Info struct{
+type Info struct {
 	Url string
+	Cms string
 }

@@ -17,7 +17,8 @@ func Banner() {
 	print(banner)
 }
 
-func Flag(Info *config.Info){
+func Flag(Info *config.Info) {
 	flag.StringVar(&Info.Url, "u", "", "http://127.0.0.1")
+	flag.StringVar(&Info.Cms, "C", "", "PhpCms")
 	flag.Parse()
 }
