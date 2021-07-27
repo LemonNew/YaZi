@@ -1,13 +1,13 @@
 package main
 
 import (
-	"fmt"
-	"github.com/loulan-ling/YaZi/common"
-	"github.com/loulan-ling/YaZi/config"
+	"./central"
+	"./common"
+	"./config"
 )
 
 func main() {
 	var Info config.Info
 	common.Flag(&Info)
-	fmt.Println(Info.Url)
+	central.Controller(&Info)
 }

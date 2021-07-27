@@ -1,8 +1,8 @@
 package common
 
 import (
+	"../config"
 	"flag"
-	"github.com/loulan-ling/YaZi/config"
 )
 
 func Banner() {
@@ -19,6 +19,7 @@ func Banner() {
 
 func Flag(Info *config.Info) {
 	flag.StringVar(&Info.Url, "u", "", "http://127.0.0.1")
-	flag.StringVar(&Info.Cms, "C", "", "PhpCms")
+	flag.StringVar(&Info.Cms, "c", "", "PhpCms")
+	flag.StringVar(&Info.ShellPassword, "pass", "pass", "Webshell pass")
 	flag.Parse()
 }
