@@ -6,7 +6,7 @@
 
 **本工具是模仿[CHYbeta](https://github.com/CHYbeta)师傅的Cmspoc项目进行改编的**
 
-**Legal Disclaimer**
+h3 Legal Disclaimer h3
 
 本项目仅供教育和学习交流使用，请勿用于非法用途恶意攻击，否则后果作者概不负责。
 
